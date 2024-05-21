@@ -1,0 +1,102 @@
+*{
+  box-sizing: border-box;
+  margin: 0%;
+}
+.contact{
+    margin: 50px;
+}
+.row5{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.column6{
+    padding: 0 10px;
+    text-align: center;
+ 
+}
+.icon{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(7, 117, 117);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:10px 50px;
+    border-radius: 50%;
+}
+.column6 div  .fa-solid{
+   font-size: 30px;
+   
+}
+
+.column6 p{
+    font-size: 18px;
+    
+}
+.column6 span{
+ 
+   display: inline-block;
+}
+.column7{
+  
+
+  width: 80%;
+   margin:  20px ;
+   
+ 
+   background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(143, 140, 140, 0.925);
+ 
+  box-sizing: border-box;
+  }
+  .column7 h1{
+    font-size: 37px;
+    color: #00555a;
+    padding: 20px;
+}
+  
+
+   
+
+.column7 input, .column7 textarea{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline:none;
+    border-bottom:1px solid black;
+    border: none;
+    font-size: 16px;
+}
+
+.column7 img{
+    width:100%;
+    height: auto;
+  
+    
+    
+}
+
+
+.location{
+    width: 100%;
+    margin: auto;
+    padding: 80px 60px;
+
+}
+.location iframe{
+      width: 100%;
+}
+
+
+@media(max-width:700px
+){
+    .row5{
+        flex-direction: column; 
+    }
+
+}
+                                                                                   
